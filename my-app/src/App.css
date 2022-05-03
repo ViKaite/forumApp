@@ -1,0 +1,189 @@
+.App {
+    text-align: center;
+}
+
+/* My classes */
+.d-flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.flex5{
+    flex: 5;
+}
+.flex6{
+    flex: 6;
+}
+.flex8{
+    flex: 8;
+}
+.just-center{
+    justify-content: center;
+}
+.just-between{
+    justify-content: space-between;
+}
+.just-evenly{
+    justify-content: space-evenly;
+}
+.just-start{
+    justify-content: start;
+}
+.just-end{
+    justify-content: end;
+}
+.just-around{
+    justify-content: space-around;
+}
+.ali-center{
+    align-items: center;
+}
+.ali-start{
+    align-content: flex-start;
+}
+.ali-around{
+    align-content: space-around;
+}
+.just-space{
+    justify-content: space-around;
+}
+.d-none{
+    display: none;
+}
+.d-inline{
+    display: inline-block
+}
+.bg-blue{
+    background-color: rgb(152, 96, 111);
+}
+.bg-rose{
+    background-color: rgb(216, 163, 163);
+}
+
+/* ******* Classes, Elements ******* */
+.sticky{
+    position: sticky;
+    top: 0;
+}
+button{
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 10px;
+
+    /* text-decoration: underline; */
+}
+.pointer{
+    cursor: pointer;
+}
+.text-left{
+    text-align: left;
+}
+.text-nondec{
+    text-decoration: none;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.p-b-5{
+    padding-bottom: 5px;
+}
+.mv-5{
+    margin: 5px 0;
+}
+.mh-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-0{
+    margin-left: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mb--3{
+    margin-bottom: -3px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb--4{
+    margin-bottom: -4px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mr--12{
+    margin-right: -12px;
+}
+.m-b-5{
+    margin-bottom: 5px;
+}
+
+/* ***** App.js special */
+
+.socketmsg {
+    /* border: 1px solid blue; */
+    min-height: 30px;
+    color: #0c0c0c;
+}
+
+.modal-notication{
+    width: 400px;
+    min-height: 200px;
+    border: 1px solid #0c0c0c;
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    z-index: 2;
+    background-color: rgb(152, 96, 111);
+    padding: 20px;
+}
+
+@media (max-width: 1024px) {
+    body{
+        transform: scale(0.85);
+        transform-origin: top left;
+        overflow: auto;
+        width: max-content;
+    }
+}
+
+@media (max-width:576px){
+    body{
+        transform: scale(0.7);
+        transform-origin: top left;
+        overflow: auto;
+        width: max-content;
+    }
+}
