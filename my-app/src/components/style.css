@@ -18,7 +18,7 @@
     margin-right: 100px;
 }
 .red-text{
-    color: red;
+    color: #6e1515;
     font-weight: bold;
 }
 .topic-card{
@@ -37,7 +37,6 @@
 .topic-text{
     text-align: left;
     padding-left: 10px;font-weight: bolder;
-    /* overflow: auto; */
     overflow-y: hidden;
 }
 .topic-header{

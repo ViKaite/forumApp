@@ -50,31 +50,6 @@ const CreateTopic = ({socket}) => {
 
 
 
-            {/* <div className='d-flex ali-center just-center'>
-          <div className='text-left'>
-            <label >Title: </label><br></br>
-            <input type="text" size="80" ref={inputsRef.title} placeholder="Length 20-500 symbols"/><br></br><br></br>
-            <label>Image: </label><br></br>
-            <input type="text" size="80" ref={inputsRef.image} placeholder="Start with http..."/><br></br>
-            <br></br>
-            <label>Start price: </label><br></br>
-            <input type="text" size="20" ref={inputsRef.price}/><span> €</span><br></br><br></br>
-            <label>End time: </label><br></br>
-            <select ref={inputsRef.time}>
-              <option disabled={true} value="">Choose end time...</option>
-              <option value="2">2 min</option>
-              <option value="5">5 min </option>
-              <option value="60">1 h</option>
-              <option value="720">12 h</option>
-              <option value="1440">24 h</option>
-            </select>
-            <br></br><br></br>
-
-          </div>
-
-        </div> */}
-            {/* <button onClick={()=>createtopic()}>Create new topic</button>
-       <h4>{message}</h4> */}
         </div>
     )
 }

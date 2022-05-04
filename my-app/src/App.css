@@ -89,7 +89,6 @@ button{
     padding: 5px 15px;
     margin: 10px;
 
-    /* text-decoration: underline; */
 }
 .pointer{
     cursor: pointer;
@@ -150,10 +149,8 @@ button{
     margin-bottom: 5px;
 }
 
-/* ***** App.js special */
-
 .socketmsg {
-    /* border: 1px solid blue; */
+
     min-height: 30px;
     color: #0c0c0c;
 }

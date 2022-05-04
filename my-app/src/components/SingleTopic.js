@@ -46,7 +46,7 @@ const SingleTopic = ({thisUser, allusers}) => {
     const getAvatar = (arg) =>{
         const pic = allusers?.find(x => x.username===arg)
         console.log(pic)
-        return (pic.photo)
+        return (pic)
     }
 
 
