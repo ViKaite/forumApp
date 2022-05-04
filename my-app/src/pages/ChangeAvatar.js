@@ -14,7 +14,6 @@ const ChangeAvatar = () => {
         }
 
         const res = await http.post(avatar,'changeavatar')
-        // console.log("result from http", res, res.message)
 
         setMessage(res.message)
 

@@ -10,14 +10,14 @@ const Login = ({toolbar, setToolbar, message, setMessage, setThisUser}) => {
     }
 
     const loginUser = async()=>{
-        // console.log("login")
+
         const user = {
             name: inputs.name.current.value,
             password: inputs.password.current.value
         }
 
         const res = await http.post(user,'login')
-        // console.log("result from http", res, res.message)
+
         setMessage(res.message)
         if (res.success){
             setToolbar(false)
