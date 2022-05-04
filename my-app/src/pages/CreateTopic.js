@@ -17,16 +17,15 @@ const CreateTopic = ({socket}) => {
         }
 
         const res = await http.post(topic,'createtopic')
-        // console.log("result from http", res, res.message)
 
         setMessage(res.message)
         inputs.title.current.value=''
         if(res.success){
-            // console.log("socket must be there", res.newtopic.username)
+
             socket.emit("newTopic", res.newtopic.username+" created topic:  "+res.newtopic.title+'" ')
         }
 
-        // console.log("create auction", auction)
+
 
     }
 
